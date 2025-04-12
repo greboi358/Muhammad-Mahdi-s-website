@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Muhammad Mahdi - Gold Category</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #ececec;
+      color: #333;
+      background-image: linear-gradient(145deg, #f0f0f0 0%, #d7d7d7 100%);
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    .main-title {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 40px;
+      font-family: 'Playfair Display', serif;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .title {
+      font-family: 'Playfair Display', serif;
+      text-align: left;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 0;
+      font-weight: bold;
+      color: #444;
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #d4af37;
+      margin-top: 5px;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      padding: 25px;
+      justify-content: center;
+      background: #fff;
+    }
+
+    nav button {
+      padding: 14px 24px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 18px;
+      color: white;
+      transition: transform 0.2s;
+    }
+
+    nav button:hover {
+      transform: scale(1.05);
+    }
+
+    #volunteeringBtn { background-color: #e57373; }
+    #skillBtn { background-color: #fbc02d; color: #333; }
+    #physicalBtn { background-color: #66bb6a; }
+    #adventureBtn { background-color: #64b5f6; }
+
+    .section {
+      display: none;
+      padding: 30px 20px;
+      max-width: 950px;
+      margin: auto;
+    }
+
+    .section.active {
+      display: block;
+    }
+
+    .activity, .day {
+      margin-bottom: 30px;
+    }
+
+    .images img {
+      width: 220px;
+      margin: 10px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .top-photo img {
+      height: 60px;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="title">
+    <h1>Muhammad Mahdi</h1>
+    <h2>Gold Category</h2>
+  </div>
+  <div class="main-title">Sheik Sultan Award</div>
+  <div class="top-photo">
+    <img src="your-photo.jpg" alt="Your Photo">
+  </div>
+</header>
+
+<nav>
+  <button id="volunteeringBtn">Volunteering</button>
+  <button id="skillBtn">Skill</button>
+  <button id="physicalBtn">Physical</button>
+  <button id="adventureBtn">Adventure</button>
+</nav>
+
+<div id="volunteering" class="section">
+  <h2>Volunteering</h2>
+  <div class="activity">Al Hamria Children's Festival - 5 hours
+    <div class="images">
+      <img src="images/hamria1.jpg">
+      <img src="images/hamria2.jpg">
+    </div>
+  </div>
+  <div class="activity">School Concert - 20 hours
+    <div class="images">
+      <img src="images/concert1.jpg">
+      <img src="images/concert2.jpg">
+    </div>
+  </div>
+  <div class="activity">Elderly Home - 4 hours
+    <div class="images">
+      <img src="images/elderly1.jpg">
+      <img src="images/elderly2.jpg">
+    </div>
+  </div>
+  <div class="activity">Ramadan Aman - 6 hours
+    <div class="images">
+      <img src="images/ramadan1.jpg">
+      <img src="images/ramadan2.jpg">
+    </div>
+  </div>
+  <div class="activity">Iftar - 4 hours
+    <div class="images">
+      <img src="images/iftar1.jpg">
+      <img src="images/iftar2.jpg">
+    </div>
+  </div>
+  <div class="activity">School Garden - 3 hours
+    <div class="images">
+      <img src="images/garden1.jpg">
+      <img src="images/garden2.jpg">
+    </div>
+  </div>
+  <div class="activity">Elderly Home (Ramadan) - 6 hours
+    <div class="images">
+      <img src="images/elderlyramadan1.jpg">
+      <img src="images/elderlyramadan2.jpg">
+    </div>
+  </div>
+</div>
+
+<div id="skill" class="section">
+  <h2>Skill</h2>
+  <p>I dedicated 300 hours over three months to completing a coding course, where I gained hands-on experience in programming. Through this journey, I learned to write clean and efficient code, debug errors, and develop problem-solving skills. This experience not only enhanced my fitness but also taught me the value of consistency and perseverance in achieving long-term goals.</p>
+  <p>The course challenged me to think logically and improve my ability to build structured programs. This experience not only strengthened my technical skills but also enhanced my perseverance and attention to detail which made me build this website.</p>
+  <div class="images">
+    <img src="images/skill1.jpg">
+    <img src="images/skill2.jpg">
+    <img src="images/skill3.jpg">
+  </div>
+</div>
+
+<div id="physical" class="section">
+  <h2>Physical</h2>
+  <p>Over two months, I walked for more than 64 hours, covering a total of 260 km. This journey tested my endurance, discipline, and commitment to staying active. Pushing through long distances, I built resilience and improved both my physical and mental strength.</p>
+  <div class="images">
+    <img src="images/physical1.jpg">
+    <img src="images/physical2.jpg">
+    <img src="images/physical3.jpg">
+    <img src="images/physical4.jpg">
+  </div>
+</div>
+
+<div id="adventure" class="section">
+  <h2>Adventure</h2>
+  <div class="day">Day 1: On the first day, we arrived at our starting point and adjusted to the harsh environment...<br>
+    <div class="images">
+      <img src="images/day1a.jpg">
+      <img src="images/day1b.jpg">
+    </div>
+  </div>
+  <div class="day">Day 2: On the second day, we started our trek...<br>
+    <div class="images">
+      <img src="images/day2a.jpg">
+      <img src="images/day2b.jpg">
+    </div>
+  </div>
+  <div class="day">Day 3: The third day was focused on survival skills...<br>
+    <div class="images">
+      <img src="images/day3a.jpg">
+      <img src="images/day3b.jpg">
+    </div>
+  </div>
+  <div class="day">Day 4: On the fourth day, we faced our toughest challenge...<br>
+    <div class="images">
+      <img src="images/day4a.jpg">
+      <img src="images/day4b.jpg">
+    </div>
+  </div>
+  <div class="day">Day 5: The final day was all about making our way back...<br>
+    <div class="images">
+      <img src="images/day5a.jpg">
+      <img src="images/day5b.jpg">
+    </div>
+  </div>
+</div>
+
+<script>
+  const buttons = {
+    volunteeringBtn: 'volunteering',
+    skillBtn: 'skill',
+    physicalBtn: 'physical',
+    adventureBtn: 'adventure'
+  };
+
+  Object.keys(buttons).forEach(id => {
+    document.getElementById(id).addEventListener('click', () => {
+      document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+      document.getElementById(buttons[id]).classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
